@@ -54,7 +54,7 @@ export default function(eleventyConfig) {
             includes: "_includes",
             output: "_site"
         },
-        pathPrefix: "/broad-sky-tax/",
+        pathPrefix: "/",
         markdownTemplateEngine: "njk",
         htmlTemplateEngine: "njk",
         dataTemplateEngine: "njk",
