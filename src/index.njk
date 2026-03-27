@@ -3,8 +3,10 @@ layout: base.njk
 isFront: true
 title: Home
 ---
-<header class="header w-full flex flex-col justify-between bg-white" style="height: 70vh;">
-  {% include "section.header.njk" %}
+<header class="header w-full flex flex-col justify-between bg-cover bg-center relative" style="height: 70vh; background-image: url('/assets/images/waves.png');">
+  <div class="relative z-10 h-full flex flex-col justify-center">
+    {% include "section.header.njk" %}
+  </div>
 </header>
 <main>
   {% include "section.about.njk" %}
