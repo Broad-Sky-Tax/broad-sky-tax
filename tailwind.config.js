@@ -33,7 +33,6 @@ export default {
       purple: colors.violet,
       pink: colors.pink,
       brand: '#19258a',
-      accent: colors.amber,
     },
     spacing: {
       px: '1px',
@@ -248,7 +247,6 @@ export default {
     },
     fontFamily: {
       sans: [
-        'Inter',
         'Aptos',
         'ui-sans-serif',
         'system-ui',
